@@ -29,3 +29,5 @@ Thumbs.db
 # === Other ===
 # Ignore Hyperskill’s internal files if any
 hyperskill*.json
+course-remote-info.yaml
+task-info.yaml
