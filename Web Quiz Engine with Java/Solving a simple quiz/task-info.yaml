@@ -18,6 +18,9 @@ files:
   - name: src/engine/WebQuizController.java
     visible: true
     learner_created: true
+  - name: src/engine/QuizResponse.java
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/8252#comment
 status: Unchecked
 record: -1
