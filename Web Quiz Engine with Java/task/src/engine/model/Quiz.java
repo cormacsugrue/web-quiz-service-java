@@ -1,4 +1,4 @@
-package engine;
+package engine.model;
 
 public class Quiz {
     private final String title;
