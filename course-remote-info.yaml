@@ -3,11 +3,11 @@ hyperskill_project:
   ide_files: https://hyperskill.org/api/projects/91/additional-files/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: "Mon, 08 Sep 2025 09:48:10 UTC"
+update_date: "Wed, 17 Sep 2025 09:33:02 UTC"
 stages:
   - id: 504
     step: 8252
-    is_completed: false
+    is_completed: true
   - id: 505
     step: 8253
     is_completed: false
@@ -33,14 +33,14 @@ topics:
       theory_id: 40371
     - title: Abstract and concrete data structures
       theory_id: 16927
-    - title: "Write, compile, and run"
-      theory_id: 3739
-    - title: "Basic terms: JVM, JRE, JDK"
-      theory_id: 3499
     - title: Operating systems
       theory_id: 9704
     - title: Command line overview
       theory_id: 8977
+    - title: "Write, compile, and run"
+      theory_id: 3739
+    - title: "Basic terms: JVM, JRE, JDK"
+      theory_id: 3499
     - title: Parameters and options
       theory_id: 9746
     - title: IDE
@@ -65,10 +65,10 @@ topics:
       theory_id: 5357
     - title: HTTP URL
       theory_id: 6740
-    - title: Introduction to Spring Web MVC
-      theory_id: 13611
     - title: HTTP messages
       theory_id: 6752
+    - title: Introduction to Spring Web MVC
+      theory_id: 13611
     - title: REST
       theory_id: 7834
     - title: Postman
@@ -137,6 +137,8 @@ topics:
       theory_id: 3525
     - title: Iterating over arrays
       theory_id: 3602
+    - title: Introduction to Linux
+      theory_id: 9526
     - title: Characters
       theory_id: 3514
     - title: String
@@ -155,10 +157,16 @@ topics:
       theory_id: 3570
     - title: Exception handling
       theory_id: 3552
-    - title: Build tools
-      theory_id: 4284
+    - title: "Synchronous, asynchronous, parallel"
+      theory_id: 9332
+    - title: Processes and threads
+      theory_id: 9420
+    - title: Environment variables
+      theory_id: 21817
     - title: JAR files
       theory_id: 4311
+    - title: Build tools
+      theory_id: 4284
     - title: "Gradle: overview"
       theory_id: 5075
     - title: Basic project with Gradle
@@ -169,8 +177,6 @@ topics:
       theory_id: 35988
     - title: "Dependency management: repositories"
       theory_id: 37189
-    - title: External information resources
-      theory_id: 6216
     - title: Introduction to full-stack development
       theory_id: 13931
     - title: Libraries
@@ -185,18 +191,14 @@ topics:
       theory_id: 15368
     - title: YAML
       theory_id: 12722
-    - title: "Synchronous, asynchronous, parallel"
-      theory_id: 9332
-    - title: Processes and threads
-      theory_id: 9420
+    - title: Introduction to API
+      theory_id: 17007
     - title: Debugging overview
       theory_id: 14368
     - title: "Hashing: overview"
       theory_id: 9831
     - title: JSON
       theory_id: 6854
-    - title: Introduction to API
-      theory_id: 17007
     - title: Simplistic hash functions
       theory_id: 40136
     - title: Hash function
@@ -219,24 +221,14 @@ topics:
       theory_id: 13292
     - title: Customizing REST responses
       theory_id: 33247
+    - title: Threads as objects
+      theory_id: 4875
     - title: Introduction to generic programming
       theory_id: 3492
     - title: Generics and Object
       theory_id: 3493
     - title: Lambda expressions
       theory_id: 11635
-    - title: What are collections
-      theory_id: 3770
-    - title: The Collections framework overview
-      theory_id: 3624
-    - title: ArrayList
-      theory_id: 3567
-    - title: The List interface
-      theory_id: 3581
-    - title: The Set interface
-      theory_id: 3575
-    - title: Threads as objects
-      theory_id: 4875
     - title: Custom threads
       theory_id: 4876
     - title: Thread management
@@ -247,8 +239,18 @@ topics:
       theory_id: 3610
     - title: Thread synchronization
       theory_id: 3557
+    - title: What are collections
+      theory_id: 3770
     - title: Collections and thread-safety
       theory_id: 4984
+    - title: The Collections framework overview
+      theory_id: 3624
+    - title: ArrayList
+      theory_id: 3567
+    - title: The List interface
+      theory_id: 3581
+    - title: The Set interface
+      theory_id: 3575
     - title: MVC
       theory_id: 17197
     - title: The Map interface

@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 import java.util.Map;
 
-@RestController
+@RestController("/api/quiz")
 public class WebQuizController {
     final Quiz quiz;
     final QuizResponse correctAnswerResponse = new QuizResponse(true, "Congratulations, you're right!");
@@ -20,12 +20,12 @@ public class WebQuizController {
         quiz = new Quiz("The Java Logo", "What is depicted on the Java Logo?", options);
     }
 
-    @GetMapping("/api/quiz")
+    @GetMapping("")
     public Quiz requestQuiz() {
         return quiz;
     }
 
-    @PostMapping("/api/quiz")
+    @PostMapping("")
     public ResponseEntity<?> submitAnswer(@RequestParam("answer") int answer) {
 
         if (answer < 0 || answer >= quiz.getOptions().length) {
