@@ -7,7 +7,7 @@ import java.util.Optional;
 
 public interface QuizRepository {
 
-    Optional<Quiz> findById(int id);
+    Optional<Quiz> findById(Integer id);
 
     List<Quiz> findAll();
 

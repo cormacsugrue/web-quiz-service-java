@@ -15,7 +15,7 @@ public class QuizCollectionRepository implements QuizRepository {
     public QuizCollectionRepository() {
     }
 
-    public Optional<Quiz> findById(int id) {
+    public Optional<Quiz> findById(Integer id) {
         return quizList.stream().filter(quiz -> quiz.getId().equals(id))
                 .findFirst();
     }
