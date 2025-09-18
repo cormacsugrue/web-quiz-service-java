@@ -1,6 +1,7 @@
 package engine.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.List;
 
@@ -42,6 +43,7 @@ public class Quiz {
         this.answer = answer;
     }
 
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     public int getAnswer() {
         return answer;
     }
