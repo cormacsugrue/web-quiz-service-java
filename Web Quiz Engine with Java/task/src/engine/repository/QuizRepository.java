@@ -11,5 +11,5 @@ public interface QuizRepository {
 
     List<Quiz> findAll();
 
-    void save(Quiz quiz);
+    Quiz save(Quiz quiz);
 }

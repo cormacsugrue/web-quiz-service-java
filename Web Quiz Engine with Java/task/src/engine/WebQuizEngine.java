@@ -17,16 +17,16 @@ public class WebQuizEngine {
     }
 
 
-    @Bean
-    public CommandLineRunner commandLineRunner(QuizRepository repository) {
-        return args -> {
-            Quiz quiz = new Quiz(
-                    "The Java Logo",
-                    "What is depicted on the Java logo?",
-                    List.of("Robot","Tea leaf","Cup of coffee","Bug"),
-                    2
-                    );
-            repository.save(quiz);
-        };
-    }
+//    @Bean
+//    public CommandLineRunner commandLineRunner(QuizRepository repository) {
+//        return args -> {
+//            Quiz quiz = new Quiz(
+//                    "The Java Logo",
+//                    "What is depicted on the Java logo?",
+//                    List.of("Robot","Tea leaf","Cup of coffee","Bug"),
+//                    2
+//                    );
+//            repository.save(quiz);
+//        };
+//    }
 }

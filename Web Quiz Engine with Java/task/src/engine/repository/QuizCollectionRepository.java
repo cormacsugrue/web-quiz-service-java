@@ -26,11 +26,12 @@ public class QuizCollectionRepository implements QuizRepository {
         return quizList;
     }
 
-    public void save(Quiz quiz) {
+    public Quiz save(Quiz quiz) {
         if (quiz.getId() == null) {
             quiz.setId(counter.incrementAndGet());
         }
         quizList.add(quiz);
+        return quiz;
     }
 
 

@@ -37,8 +37,8 @@ public class WebQuizController {
     // Post request to save a new quiz
     @ResponseStatus(HttpStatus.CREATED)
     @PostMapping("/quizzes")
-    public void create(@RequestBody Quiz quiz) {
-        repository.save(quiz);
+    public Quiz create(@RequestBody Quiz quiz) {
+        return repository.save(quiz);
     }
 
 

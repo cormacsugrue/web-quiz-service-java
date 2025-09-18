@@ -1,5 +1,7 @@
 package engine.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.util.List;
 
 public class Quiz {
@@ -7,6 +9,7 @@ public class Quiz {
     private String title;
     private String text;
     private List<String> options;
+    @JsonIgnore
     private Integer answer;
 
 
