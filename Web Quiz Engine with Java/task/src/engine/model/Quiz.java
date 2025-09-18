@@ -1,17 +1,41 @@
 package engine.model;
 
-public class Quiz {
-    private final int id;
-    private final String title;
-    private final String text;
-    private final String[] options;
-    private final int answer;
+import java.util.List;
 
-    public Quiz(int id, String title, String text, String[] options, int answer) {
-        this.id = id;
+public class Quiz {
+    private Integer id;
+    private String title;
+    private String text;
+    private List<String> options;
+    private Integer answer;
+
+
+    public Quiz(){}
+
+    public Quiz(String title, String text, List<String> options, int answer) {
         this.title = title;
         this.text = text;
         this.options = options;
+        this.answer = answer;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+
+    public void setOptions(List<String> options) {
+        this.options = options;
+    }
+
+    public void setAnswer(int answer) {
         this.answer = answer;
     }
 
@@ -31,7 +55,7 @@ public class Quiz {
         return text;
     }
 
-    public String[] getOptions() {
+    public List<String> getOptions() {
         return options;
     }
 }

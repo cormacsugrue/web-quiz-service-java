@@ -34,5 +34,13 @@ public class WebQuizController {
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Quiz not found"));
     }
 
+    // Post request to save a new quiz
+    @ResponseStatus(HttpStatus.CREATED)
+    @PostMapping("/quizzes")
+    public void create(@RequestBody Quiz quiz) {
+        repository.save(quiz);
+    }
+
+
 
 }

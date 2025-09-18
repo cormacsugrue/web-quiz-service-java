@@ -21,10 +21,9 @@ public class WebQuizEngine {
     public CommandLineRunner commandLineRunner(QuizRepository repository) {
         return args -> {
             Quiz quiz = new Quiz(
-                    1,
                     "The Java Logo",
                     "What is depicted on the Java logo?",
-                    new String[] {"Robot","Tea leaf","Cup of coffee","Bug"},
+                    List.of("Robot","Tea leaf","Cup of coffee","Bug"),
                     2
                     );
             repository.save(quiz);
