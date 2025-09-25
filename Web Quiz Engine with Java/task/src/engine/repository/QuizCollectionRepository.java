@@ -10,7 +10,7 @@ import java.util.Optional;
 import java.util.concurrent.atomic.AtomicInteger;
 
 @Repository
-public class QuizCollectionRepository implements QuizRepository {
+public class QuizCollectionRepository  {
     private final List<Quiz> quizList = new ArrayList<>();
     private final AtomicInteger counter = new AtomicInteger(0);
 

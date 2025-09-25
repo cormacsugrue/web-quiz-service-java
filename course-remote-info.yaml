@@ -3,20 +3,20 @@ hyperskill_project:
   ide_files: https://hyperskill.org/api/projects/91/additional-files/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: "Thu, 18 Sep 2025 12:05:27 UTC"
+update_date: "Thu, 25 Sep 2025 06:14:24 UTC"
 stages:
   - id: 504
     step: 8252
     is_completed: true
   - id: 505
     step: 8253
-    is_completed: false
+    is_completed: true
   - id: 506
     step: 8254
-    is_completed: false
+    is_completed: true
   - id: 507
     step: 8255
-    is_completed: false
+    is_completed: true
   - id: 508
     step: 8256
     is_completed: false
@@ -455,7 +455,7 @@ topics:
       theory_id: 9059
     - title: Basic DELETE statement
       theory_id: 9075
-    - title: Authentication and Authorization
+    - title: Authentication and authorization
       theory_id: 14219
     - title: Introduction to transactions
       theory_id: 12144
